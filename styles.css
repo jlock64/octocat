@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: sans-serif;
+}
+
+* a {
+  text-decoration: none;
+  color: #333;
+}
+
+ul {
+  width: 100%;
+}
+
+.octocat {
+  display: inline-block;
+  width: 30%;
+  margin-right: 2%;
+
+}
+.octocat > a img {
+  width: 100%;
+  display: inline-block;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+.authors {
+  display: inline;
+  list-style-type: none;
+  padding: 0;
+}
+
+.authors img {
+  width: 6%;
+  border-radius: 2px;
+  position: relative;
+  top: 8px;
+}
+
+.authors li {
+  display: inline;
+}
+
+.image-footer {
+  border-bottom: 1px solid grey;
+  height: 40px;
+  text-align: left;
+}
+
+.image-number {
+  display: inline-block;;
+  width: 19%;
+  color: grey;
+  text-align: left;
+}
+.image-number::before {
+  content: "#";
+}
+
+.image-caption {
+  display: inline-block;
+  width: 80%;
+  text-align: right;
+}
+
+span {
+  color: grey;
+}
